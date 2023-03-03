@@ -78,8 +78,8 @@ hr {
 .navigation {
   background-color: var(--primary-color);
   color: white;
-  padding: 1rem;
-  border-bottom-left-radius: 1rem;
+  padding: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .navigation .nav-brand {
@@ -107,20 +107,20 @@ hr {
 /** header **/
 
 .hero {
-  padding: 2rem;
-  padding-top: 5rem;
+  padding: 1rem;
+  padding-top: 2rem;
 }
 
 .hero .hero-img {
-  max-width: 80%;
-  width: 550px;
+  max-width: 50%;
+  width: 400px;
   display: block;
   margin: auto;
 }
 
 .hero .hero-heading {
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   color: var(--dark-gray);
 }
 
@@ -171,10 +171,10 @@ hr {
 /** projects **/
 .showcase-list {
   /* padding: 2rem; */
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1rem;
   text-align: center;
-  margin: 3rem auto;
+  margin: 1rem auto;
 }
 .showcase-list h1 {
   margin: 0.5rem;
@@ -187,7 +187,7 @@ hr {
 /** blogs **/
 
 .showcase-blog {
-  padding-bottom: 6rem;
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 900px) {
